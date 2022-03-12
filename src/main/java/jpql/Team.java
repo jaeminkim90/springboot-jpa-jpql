@@ -31,4 +31,12 @@ public class Team {
         this.username = username;
     }
 
+    @Override
+    public String toString() {
+        return "Team{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+
+                '}';
+    }
 }
